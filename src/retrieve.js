@@ -2,8 +2,8 @@ const { retrieveFromGoogleAds } = require("./retreive-google-ads");
 
 const retrieveByModuleMethods = {
   "GoogleAds": retrieveFromGoogleAds,
-  "FacebookAds": retrieveFromFacebookAds,
-  "LinkedInAds": retrieveFromLinkedInAds,
+  // "FacebookAds": retrieveFromFacebookAds,
+  // "LinkedInAds": retrieveFromLinkedInAds,
 };
 
 async function retrieve(moduleName, customerId, sinceDate, endDate, credentials) {
